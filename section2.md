@@ -2,9 +2,10 @@
 # Section2 - Simple Recommendation Systems
 
 Content Table
-- [Non-ML techniques](##Non-ML-techniques)
-- [Hacker News Formula](##hacker-news-formula)
-- [Reading](##reading)
+- [Non-ML techniques](#Non-ML-techniques)
+- [Hacker News Formula](#hacker-news-formula)
+- [Raddit Formula](#Raddit-Formula)
+- [Reading](#reading)
 
 ## Non-ML techniques
 These are `non-ml techniques`, can be achived by SQL, while they are still powelful.
@@ -41,6 +42,35 @@ We can see as the age grows, score grows sublinear.
 
 
 "The unknown penalty is the powerful weapon of controlling media. isn't it?"
+
+
+## Raddit Formula
+
+![fomula](arts/2-reddit.png)
+
+`Controversy`
+
+![controversy](arts/2-reddit-controversy.png)
+
+哈，老师讲到这里说：
+>I think the main takeaway is that we have all this cool math and there interesting algorithms. But at the end of the day it's politics and money that get the final decision on what you see. Perhaps the only true way to remain neutral is to be governed by robots.
+
+可是最终robots也是被政府控制呢, penaltiy 还不是被他们随便写。
+
+
+## Ratings
+News feed items typically hae upvotes and downvotes, likes...
+
+Amazon, Walmart has 5 star ratings.
+
+At high level, you can think of
+- binary outcomes as classification
+- 5 star ratings as regression
+
+Problem of Avarage rating
+- confidence: one 5 starts is better than 2 thousands rating as 4.8 star? No.
+
+>the more samples I collect (N) the skinnier it's distribution 
 
 
 ## Reading
