@@ -26,6 +26,10 @@ The purpose I learn Recommender System is that I want to build a book recommenda
 - [Example Code](https://github.com/lazyprogrammer/machine_learning_examples)
 - [Kaggle Data](https://www.kaggle.com/grouplens/movielens-20m-dataset/)
 
-## [Simple Recommendation Systems](section2.md)
+## Simple Recommendation Systems]
+
+- [Non-ML techniques](section2)
+- [Hacker News Formula](section2.md#hacker-news-formula)
+- [Reading](section2.md#reading)
 
 ## Collaborative Filtering

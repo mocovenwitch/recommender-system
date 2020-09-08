@@ -1,7 +1,7 @@
 
-## Section2 - Simple Recommendation Systems
+# Section2 - Simple Recommendation Systems
 
-These are non-ml techniques, can be achived by SQL, while they are still powelful.
+These are `non-ml techniques`, can be achived by SQL, while they are still powelful.
 
 `Popularity` - lots of prople willing to pay money for these products.
 
@@ -19,7 +19,7 @@ These are non-ml techniques, can be achived by SQL, while they are still powelfu
 
 ![lift](arts/2-lift.png)
 
-### Hacker News Formula
+## Hacker News Formula
 
 Since news is related very much to `age` (time), that's how Hacker News handle the recommendation
 
@@ -34,8 +34,8 @@ We can see as the age grows, score grows sublinear.
 - too many comments - how controversial it is
 
 
-"The known penalty is the powerful weapon of controlling media. isn't it?"
+"The unknown penalty is the powerful weapon of controlling media. isn't it?"
 
 
-### Reading
+## Reading
 - http://www.righto.com/2013/11/how-hacker-news-ranking-really-works.html
