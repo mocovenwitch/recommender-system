@@ -52,10 +52,8 @@ We can see as the age grows, score grows sublinear.
 
 ![controversy](arts/2-reddit-controversy.png)
 
-哈，老师讲到这里说：
->I think the main takeaway is that we have all this cool math and there interesting algorithms. But at the end of the day it's politics and money that get the final decision on what you see. Perhaps the only true way to remain neutral is to be governed by robots.
 
-可是最终robots也是被政府控制呢, penaltiy 还不是被他们随便写。
+>I think the main takeaway is that we have all this cool math and there interesting algorithms. But at the end of the day it's politics and money that get the final decision on what you see. Perhaps the only true way to remain neutral is to be governed by robots.
 
 
 ## Ratings
