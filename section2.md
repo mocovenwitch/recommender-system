@@ -1,6 +1,12 @@
 
 # Section2 - Simple Recommendation Systems
 
+Content Table
+- [Non-ML techniques](##Non-ML-techniques)
+- [Hacker News Formula](##hacker-news-formula)
+- [Reading](##reading)
+
+## Non-ML techniques
 These are `non-ml techniques`, can be achived by SQL, while they are still powelful.
 
 `Popularity` - lots of prople willing to pay money for these products.
