@@ -70,6 +70,39 @@ Problem of Avarage rating
 
 >the more samples I collect (N) the skinnier it's distribution 
 
+![confidence intervals](arts/2-con-in.png)
+
+>If X is not normally-distributed, according to Central Limit Theorem
+
+![CLT](arts/2-clt.png)
+
+### Bernoulli CI Approximation
+
+![bo](arts/2-bo.png)
+
+Good for binary outcomes.
+
+### Wilson Internal
+
+Sorting process is still the same, sort by lower bound, just that now the `lower bound is more accurate`.
+
+![wilson](arts/2-wilson.png)
+
+Can be extended to `5-star rating`. e.g.
+- 1 star == 0 upvotes and 1 downvotes
+- 2 star == 0.25 upvotes 0.75 downvotes
+- 3 star == 0.5 upvotes and 0.5 downvotes
+- 4 star == 0.75 upvotes 0.25 downvotes
+- 5 star == 1 upvotes and 0 downvotes
+
+Reddit uses Wilson Interval for comments.
+
+`Why lower bound is good?`
+Because it accounts for number of people who rated the item
+- higher number of raters -> small CI -> higher lower bound
+- in the sense the popularity increases the score
+
+
 
 ## Reading
 - http://www.righto.com/2013/11/how-hacker-news-ranking-really-works.html
