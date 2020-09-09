@@ -102,6 +102,26 @@ Because it accounts for number of people who rated the item
 - higher number of raters -> small CI -> higher lower bound
 - in the sense the popularity increases the score
 
+### Smoothing
+
+`The problem and the solution`: If a product has no rating, we give a value by default. The default value should be between the middle value and the real ratings from other products. We call this `smoothing`.
+
+`Explore-Exploit Dilemma`:
+Example problem for Youtube, if you watch a bunch of videos on how to make eggs, then recommendations are filled with videos about making eggs. 
+
+But if Youtube now serve by a stronger exploration component, e.g. movie trailers, you could think it's a bad site with nothing you are interested in. Then now Youtube is in `Explore-Exploit Dilemma`.
+
+### Bayesian Approach
+Bayesian approach builds on top of Likelihood.
+
+Study up:
+
+`Bernoulli Distribution`
+`Bayes rule`
+
+### Why do you need a library?
+
+What I understand is, libraries are only for tools help you out, but don't use libraries for core approach.
 
 
 ## Reading
