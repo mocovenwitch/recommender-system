@@ -123,6 +123,37 @@ Study up:
 
 What I understand is, libraries are only for tools help you out, but don't use libraries for core approach.
 
+## Demographic and ML
+Demographoc data does not represent the product data. We can build the product data to the feature, and use only one model to predict many product results.
+
+>Another course to refer: Logistic Regression and Deep Learning 1.
+
+`input`: is_mobile, n_products_viewed, visit_duration, is_returning_visitor
+
+`target`: bounce, add to card, begin check, complete checkout
+
+>So people noticed that Demographic data was harder to collect.
+
+Explicitly -> Implicitly
+
+`Latent variable models` - features are learnd automatically.
+
+`Matrix factorization`
+
+## Google PageRank
+
+`The PageRank of a page is the probability I would end up on that page if I surfed the Internet randomly for an infinite amount of time.`
+
+`Markov Model` - probabilistic language model, does not depend on more steps behind `only the immediate last value`. e.g. p(love | I), p(the | the)
+
+>Isn't it finite state machine? No, because Markov Chain describes the possibility `probabilistic rather than deterministic`. But A finite state machine can be used as a representation of a Markov chain. There is a thing called [Finite Markov Chain Processes](https://en.wikipedia.org/wiki/Finite-state_machine#Finite_Markov_chain_processes)
+
+
+
+
+
+
+
 
 ## Reading
 - http://www.righto.com/2013/11/how-hacker-news-ranking-really-works.html
