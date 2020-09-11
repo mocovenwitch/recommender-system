@@ -6,8 +6,13 @@ Content Table
 - [Hacker News Formula](#hacker-news-formula)
 - [Raddit Formula](#Raddit-Formula)
 - [Ratings](#Ratings)
+    - [Bernoulli CI Approximation](#Bernoulli-CI-Approximation)
+    - [Wilson Internal](#Wilson-Internal)
+    - [Smoothing](#Smoothing)
+    - [Bayesian Approach](#Bayesian-Approach)
 - [Demographic and ML](#Demographic-and-ML)
 - [Google PageRank](#Google-PageRank) 
+    - [Transition Probability Matrix](#Transition-Probability-Matrix)
 - [Reading](#reading)
 
 ## Non-ML techniques
@@ -151,10 +156,34 @@ Explicitly -> Implicitly
 
 >Isn't it finite state machine? No, because Markov Chain describes the possibility `probabilistic rather than deterministic`. But A finite state machine can be used as a representation of a Markov chain. There is a thing called [Finite Markov Chain Processes](https://en.wikipedia.org/wiki/Finite-state_machine#Finite_Markov_chain_processes)
 
+>X means state in this lecture.
 
 
+### Transition Probability Matrix
 
+A(i,j) tells us the probability of going to state j from state i. 
 
+![tran](arts/2-transition-p-matrix.png)
+
+Example:
+
+p(sunny|rainy) = 0.9; p(sunny|sunny) = 0.1;
+
+p(rainy|sunny) = 0.9; p(rainy | rainy) = 0.1;
+
+`Calculating probabilities`
+p(rainy|sunny)=count(sunny->rainy)/count(sunny)
+
+![cal](arts/2-cal-p.png)
+
+`Problem` of it: a sentence containing a bigram that didn't appear in the train set. Then the posibility of that word will be 0, which is not true.
+
+Solution: `Add-1 Smoothing` - this is to make sure all the posibilities are not 0.
+
+![add1](arts/2-add-1.png)
+
+Or 
+![adde](arts/2-add-e.png)
 
 
 
