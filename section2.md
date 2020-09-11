@@ -5,6 +5,9 @@ Content Table
 - [Non-ML techniques](#Non-ML-techniques)
 - [Hacker News Formula](#hacker-news-formula)
 - [Raddit Formula](#Raddit-Formula)
+- [Ratings](#Ratings)
+- [Demographic and ML](#Demographic-and-ML)
+- [Google PageRank](#Google-PageRank) 
 - [Reading](#reading)
 
 ## Non-ML techniques

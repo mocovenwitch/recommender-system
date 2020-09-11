@@ -28,8 +28,12 @@ The purpose I learn Recommender System is that I want to build a book recommenda
 
 ## Simple Recommendation Systems
 
-- [Non-ML techniques](section2.md)
+- [Non-ML techniques](section2.md#Non-ML-techniques)
 - [Hacker News Formula](section2.md#hacker-news-formula)
+- [Raddit Formula](section2.md#Raddit-Formula)
+- [Ratings](section2.md#Ratings)
+- [Demographic and ML](section2.md#Demographic-and-ML)
+- [Google PageRank](section2.md#Google-PageRank) 
 - [Reading](section2.md#reading)
 
 ## Collaborative Filtering
