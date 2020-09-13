@@ -186,6 +186,13 @@ Or
 ![adde](arts/2-add-e.png)
 
 
+### Derivatives
+
+>f(x) = x^n, f'(x) = n*(x)^(n-1)
 
 ## Reading
 - http://www.righto.com/2013/11/how-hacker-news-ranking-really-works.html
+- http://norvig.com/spell-correct.html
+- https://en.wikipedia.org/wiki/Normal_distribution
+- https://en.wikipedia.org/wiki/Bernoulli_distribution
+- https://en.wikipedia.org/wiki/Bayes%27_theorem
