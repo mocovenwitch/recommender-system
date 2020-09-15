@@ -183,7 +183,22 @@ Solution: `Add-1 Smoothing` - this is to make sure all the posibilities are not 
 ![add1](arts/2-add-1.png)
 
 Or 
+
 ![adde](arts/2-add-e.png)
+
+### Markov Model
+
+Pi t = state probability distribution at time t
+
+`state probability` - it's the probability of being in a state at some particular time.
+
+`row vector`
+
+`column vector`
+
+![f-c](arts/2-future-cal.png)
+
+![f-c-2](arts/2-future-cal2.png)
 
 
 ### Derivatives
