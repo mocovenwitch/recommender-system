@@ -201,9 +201,35 @@ Pi t = state probability distribution at time t
 ![f-c-2](arts/2-future-cal2.png)
 
 
+Summary:
+- Every page in the Internet is a state in a Markov Model
+- The "transition probability" is distributed equally amongst all links on a page
+
+Continue:
+![l-s](arts/2-l-s.png)
+
+`How does PageRank solve search problems?`
+- having many of the same link is equivalent to having 1 page
+- the page links to a page must be popular at the first place
+
+`How do I know if my ranking is good or correct?`Deploy algorithm and collect data. Do AB test.
+
+`Is there such a thing as a correct ranking?`Consider surprise and diversity.
+
+AB test to check:
+- Revenue
+- Clicks
+- Impressions
+
+## Section summary
+
+![summary](arts/2-summary.png)
+
+
 ### Derivatives
 
 >f(x) = x^n, f'(x) = n*(x)^(n-1)
+
 
 ## Reading
 - http://www.righto.com/2013/11/how-hacker-news-ranking-really-works.html
